@@ -1,8 +1,3 @@
-# 跨品种套利(期货)
-期货的跨品种套利策略
-
-## 源码
-```python
 # coding=utf-8
 from __future__ import print_function, absolute_import, unicode_literals
 from gm.api import *
@@ -98,7 +93,3 @@ if __name__ == '__main__':
         backtest_initial_cash=500000,
         backtest_commission_ratio=0.0001,
         backtest_slippage_ratio=0.0001)
-```
-## 绩效图
-
-![绩效图](attach.png)
